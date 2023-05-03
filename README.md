@@ -6,3 +6,6 @@
 #### - Birthday🎂: 04.08.2006
 #### - PLs💻: Python, C#, JavaScript
 
+
+## My Actual Projects
+Chapter in dev ...

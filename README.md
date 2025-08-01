@@ -3,8 +3,8 @@
 
 ## Bio🧑🏻
 ```csharp
-> Console.WriteLine(yearsOfExperiences);
-3
+> Console.WriteLine("Years of experiences: " + (int)itJourneyStart.TotalYears);
+Years of experiences: 3
 ```
 
 ### **ToolsAndLanguages.cs**
@@ -15,7 +15,7 @@
 33
 34    for (int i = 0; i < toolsAndLanguages.Count; i++) {
 35      SKBitmap icon = toolsAndLanguages[i].Resize(new SKImageInfo(imageSize, imageSize), SKFilterQuality.High);
-36      canvas.DrawBitmap(icon, (imageSize + 10) * i, (60 - 40) / 2);
+36      canvas.DrawBitmap(icon, (imageSize + 10) * i, (60 - imageSize) / 2);
 37    }
 38
 39    using (SKImage image = surface.Snapshot())
